@@ -16,7 +16,9 @@ p {
   font-family: Helvetica;
   color: white;
 }
-
+section{
+  position:absolute;
+  
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
