@@ -4,6 +4,7 @@
 }
 h1 {
   margin-bottom: 15px;
+  font-size: 1.75rem;
 }
 
 p {
@@ -18,6 +19,7 @@ p {
 }
 section{
   position:absolute;
+  font-size: 1.25rem;
 }
 /* Simple Responsive Framework. */
 .row {
