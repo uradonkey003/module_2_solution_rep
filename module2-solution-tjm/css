@@ -5,6 +5,11 @@
 h1 {
   margin-bottom: 15px;
   font-size: 1.75rem;
+  text-align:center;
+  border:1.5px dotted orange;
+  width:max-content;
+  position:relative;
+  left: 50%;
 }
 
 p {
@@ -14,13 +19,45 @@ p {
   height: 150px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif, google-sans;
   color: white;
-}
-section{
+  }
+
+section {
   position:absolute;
   font-size: 1.25rem;
 }
+
+.menu {
+  position: relative;
+  border: 1px solid black;
+  top: 0px;
+  left: 85%;
+  width: 75px;
+  text-align: center;
+    }
+
+#chicken{
+  background-color: cyan;
+}
+
+#beef{
+  background-color:yellow;
+}
+
+#sushi{
+  background-color: pink;
+}
+
+footer{
+  font-size: 1.75rem;
+  text-align:center;
+  border:1.5px dotted orange;
+  justify-content: center;
+  position: absolute;
+  bottom: 25%;
+ }
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -30,7 +67,7 @@ section{
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
